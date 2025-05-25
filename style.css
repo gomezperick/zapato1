@@ -1,0 +1,423 @@
+/* Estilos generales */
+body {
+    background-image: url('https://www.wallpaperuse.com/wallp/85-858285_m.jpg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+body.calzadoMujer {
+    background-image: url('https://image.freepik.com/vector-gratis/fondo-rosa-degradado_3247-333.jpg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+body.calzadoHombre {
+  background-image: url('https://i.pinimg.com/474x/d6/ac/6f/d6ac6f69a6425a50a714f4c21e2f4e3d.jpg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #093bc5e0;
+    color: #333;
+  }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header y Navegación */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cart a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://via.placeholder.com/1500x500?text=Zapatilandia+Banner') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    margin-bottom: 30px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.btnBack{
+    background-color: #ffffff;
+    color:  #007bff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    text-align: center;
+}
+
+/* Productos Destacados */
+.featured-products {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.product-card .price {
+    font-size: 1.3rem;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 30px;
+    color: white;
+    flex-wrap: wrap;
+  }
+  
+  /* Logo a la izquierda */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Menú al centro */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+    color: #f2a007;
+  }
+  
+  /* Carrito a la derecha */
+  .cart a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .cart a:hover {
+    color: #f2a007;
+  }
+  /* Diseño general de la sección de contacto */
+#contacto {
+    max-width: 900px;
+    margin: 90px auto;
+    padding: 45px;
+    background-color: #f1e3e3;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Título */
+  #contacto h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Estilo general de etiquetas */
+  #contacto label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #444;
+    font-weight: bold;
+  }
+  
+  /* Campos de entrada y textarea */
+  #contacto input,
+  #contacto textarea {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: border 0.3s ease;
+  }
+  
+  #contacto input:focus,
+  #contacto textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Botón de envío */
+  #contacto button[type="submit"] {
+    margin-top: 30px;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  #contacto button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Mensaje de enviado */
+  #mensajeEnviado {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+  /* Animación de entrada a las imágenes */
+@keyframes fadeInZoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Aplica animación a las imágenes de producto */
+.product-card img {
+  animation: fadeInZoom 1s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover en imágenes */
+.product-card img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Efecto hover en la tarjeta completa */
+.product-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+h2:hover{
+  color:blue;
+}
+aside a {
+    color: #0e100e;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+
+  aside a:hover {
+    color: #181a18;
+  }
+
+  /* Color específico para los iconos de las redes sociales */
+  .facebook-icon {
+    color: #3b5998; /* Color de Facebook */
+  }
+
+  .instagram-icon {
+    color: #C13584; /* Color de Instagram */
+  }
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    nav a {
+      margin: 10px 0;
+    }
+
+    main {
+      flex-direction: column;
+    }
+
+    aside {
+      margin-top: 20px;
+      border-left: none;
+      border-top: 1px solid #ddd;
+    }
+  }
+
+  
+  #infoExtra {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  #infoExtra button {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  /* Contenedor principal con diseño de columnas */
+.contenido-con-layout {
+  display: flex;
+  flex-wrap: wrap;          /* Para que se adapte en pantallas pequeñas */
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilo para el contenido principal */
+.contenido-con-layout main {
+  flex: 3;
+  min-width: 300px;
+}
+  #infoExtra {
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    height: fit-content;
+  
+    /* Sticky behavior */
+    position: sticky;
+    top: 20px;
+  }
+  #carrito-desplegable {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  font-size: 0.9em;
+}
+
+#carrito-desplegable ul {
+  list-style: none;
+  padding: 0;
+}
+
+#carrito-desplegable li {
+  margin-bottom: 8px;
+}
